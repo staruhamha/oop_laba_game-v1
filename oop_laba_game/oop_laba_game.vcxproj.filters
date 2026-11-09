@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Unit">
+      <UniqueIdentifier>{1b766c52-68b0-4f71-84ab-cc827e4b258d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Attributes">
+      <UniqueIdentifier>{1435d10e-9407-4483-98b0-a1a9c667c22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Units">
+      <UniqueIdentifier>{ea586b82-54e7-4951-abb1-52b2a9b4a119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Factories">
+      <UniqueIdentifier>{b9a09c3c-3c16-446e-aaf8-e07145d45112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Field">
+      <UniqueIdentifier>{8abdd7aa-029a-4e15-8343-31c8912c913e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="oop_laba_game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitFactory.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="GameField.cpp">
+      <Filter>Исходные файлы\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFieldIterator.cpp">
+      <Filter>Исходные файлы\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTypes.cpp">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Factories.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Units.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unit.h">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="GameField.h">
+      <Filter>Исходные файлы\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFieldIterator.h">
+      <Filter>Исходные файлы\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTypes.h">
+      <Filter>Исходные файлы\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Factories.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Units.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+</Project>
